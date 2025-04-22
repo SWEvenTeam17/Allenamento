@@ -26,5 +26,6 @@ jobs:
         
     - name: Run test
       run: |
+        cd Python
         source venv/bin/activate
         python -m unittest discover
