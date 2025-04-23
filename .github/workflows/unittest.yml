@@ -28,4 +28,5 @@ jobs:
       run: |
         cd Python
         source venv/bin/activate
-        python -m unittest discover -p "*_test.py" -v
+        pytest
+# python -m unittest discover -p "*_test.py" -v
